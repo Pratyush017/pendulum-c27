@@ -26,12 +26,12 @@ function draw(){
       ball.MoveWithMouse();
     }
 
-    push();
-    textSize(25);
-    fill("white");
+    
+    textSize(30);
+    
     text("Press space to move the bob", 90, 40);
     text("PRESS ENTER TO LEAVE THE BOB", 100, 80);
-    pop();
+    
     ball.display();
     log.display();
     chain.display();
